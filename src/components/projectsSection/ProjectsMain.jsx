@@ -9,7 +9,7 @@ const projects = [
     year: "Feb2025",
     align: "right",
     image: "/images/website1.png",
-    link: "#",
+    link: "https://portfolio-five-phi-69.vercel.app/",
   },
   {
     name: "Wobix",
