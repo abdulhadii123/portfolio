@@ -15,14 +15,16 @@ const NavbarBtn = () => {
         </div>
       </button>
 
-      {/* Download Resume Button (Always Visible) */}
+      {/* Download Resume Button */}
       <a
         href="/Abdul-Hadi-Mp.pdf" // Update this with the actual path to your resume
         download="Abdul-Hadi-Mp.pdf"
         className="px-4 py-2 rounded-full text-xl font-bold font-body text-white border-cyan border flex items-center gap-2 bg-gradient-to-r from-gray-700 to-gray-900 transition-all duration-500 hover:scale-110 hover:border-gray-400 cursor-pointer hover:shadow-lg"
       >
-        Resume
-        <FiDownload />
+        {/* Show Text + Icon on Medium and Larger Screens */}
+        <span className="hidden md:inline">Resume</span>
+        {/* Show Only Icon on Small Screens */}
+        <FiDownload className="md:hidden" />
       </a>
     </div>
   );
