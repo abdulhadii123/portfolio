@@ -5,6 +5,13 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
+    name: "wobix-taiwind",
+    year: "Feb2025",
+    align: "left",
+    image: "/images/website5.png",
+    link: "https://wobix-react.vercel.app/",
+  },
+  {
     name: "Portfolio",
     year: "Feb2025",
     align: "right",
@@ -26,9 +33,16 @@ const projects = [
     link: "https://fimkin-phi.vercel.app/",
   },
   {
+    name: "Soller",
+    year: "Oct2024",
+    align: "left",
+    image: "/images/website6.png",
+    link: "https://soller-eight.vercel.app/",
+  },
+  {
     name: "ila spices",
     year: "Sep2024",
-    align: "left",
+    align: "right",
     image: "/images/website4.png",
     link: "https://ila-spices.vercel.app/",
   },
