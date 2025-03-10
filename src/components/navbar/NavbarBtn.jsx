@@ -17,7 +17,7 @@ const NavbarBtn = () => {
 
       {/* Download Resume Button */}
       <a
-        href="/Abdul-Hadi-Mp.pdf" // Update this with the actual path to your resume
+        href="/Abdul-Hadi-Mp-.pdf" // Update this with the actual path to your resume
         download="Abdul-Hadi-Mp.pdf"
         className="px-4 py-2 rounded-full text-xl font-bold font-body text-white border-cyan border flex items-center gap-2 bg-gradient-to-r from-gray-700 to-gray-900 transition-all duration-500 hover:scale-110 hover:border-gray-400 cursor-pointer hover:shadow-lg"
       >
